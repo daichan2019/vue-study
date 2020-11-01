@@ -7,12 +7,12 @@
   </head>
   <body>
     <div id="app">
-      <input type="text" v-model="message" />
-      <input type="checkbox" v-model="inChecked" />
-      <p>{{message}} {{isChecked}}</p>
+      <p>{{counter}}</p>
+      <button v-on:click="add">add(function)</button>
+      <button v-on:click="counter++">add(PureJS)</button>
     </div>
 
     <script src="https://unpkg.com/vue/dist/vue.js"></script>
-    <script src="./app.js"></script>
+    <script src="./app3.js"></script>
   </body>
 </html>
